@@ -10,7 +10,7 @@ def geocode_place(place_name: str):
     Child tool used by both agents.
     Returns (lat, lon, display_name) or (None, None, None) if place seems invalid.
     """
-    API_KEY = "pk.1f4a34091a15db5f434b3c1afaa7064e"  # TODO: put YOUR key here (and hide it before pushing)
+    API_KEY = "pk.1f4a34091a15db5f434b3c1afaa7064e"  
 
     params = {
         "key": API_KEY,
